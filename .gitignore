@@ -1,0 +1,13 @@
+packages
+bin
+obj
+/Esp.Auth.Web/bin
+/Esp.Auth.Web/obj
+/Esp.Auth.Web/Logs
+/Esp.Auth.EntityFramework/bin
+/Esp.Auth.EntityFramework/obj
+/Esp.Auth.Core/bin
+/Esp.Auth.Core/obj
+/Esp.Auth.Application/bin
+/Esp.Auth.Application/obj
+/.vs
