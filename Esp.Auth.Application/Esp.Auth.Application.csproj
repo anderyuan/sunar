@@ -97,6 +97,7 @@
   <ItemGroup>
     <Compile Include="AuthApplicationModule.cs" />
     <Compile Include="AuthAppServiceBase.cs" />
+    <Compile Include="Menus\IMenuAppService.cs" />
     <Compile Include="MultiTenancy\Dto\CreateTenantInput.cs" />
     <Compile Include="MultiTenancy\ITenantAppService.cs" />
     <Compile Include="MultiTenancy\Dto\TenantListDto.cs" />
