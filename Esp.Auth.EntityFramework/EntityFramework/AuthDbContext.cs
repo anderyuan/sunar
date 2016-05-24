@@ -3,12 +3,15 @@ using Abp.Zero.EntityFramework;
 using Esp.Auth.Authorization.Roles;
 using Esp.Auth.MultiTenancy;
 using Esp.Auth.Users;
+using System.Data.Entity;
+using Esp.Auth.Menus;
 
 namespace Esp.Auth.EntityFramework
 {
     public class AuthDbContext : AbpZeroDbContext<Tenant, Role, User>
     {
         //TODO: Define an IDbSet for your Entities...
+        public IDbSet<Menu> Menus { get; set; }
 
         /* NOTE: 
          *   Setting "Default" to base class helps us when working migration commands on Package Manager Console.

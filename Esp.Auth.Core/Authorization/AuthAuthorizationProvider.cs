@@ -17,6 +17,8 @@ namespace Esp.Auth.Authorization
 
             var users = pages.CreateChildPermission(PermissionNames.Pages_Users, L("Users"));
 
+            var menus = pages.CreateChildPermission(PermissionNames.Pages_Menus, L("Menus"));
+
             //Host permissions
             var tenants = pages.CreateChildPermission(PermissionNames.Pages_Tenants, L("Tenants"), multiTenancySides: MultiTenancySides.Host);
         }

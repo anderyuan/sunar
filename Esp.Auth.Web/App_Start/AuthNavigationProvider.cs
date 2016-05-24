@@ -46,6 +46,14 @@ namespace Esp.Auth.Web
                         url: "About",
                         icon: "fa fa-info"
                         )
+                ).AddItem(
+                    new MenuItemDefinition(
+                        "Menu",
+                        L("Menus"),
+                        url:"Menu",
+                        icon:"fa fa-users",
+                        requiredPermissionName:PermissionNames.Pages_Tenants
+                        )
                 );
         }
 

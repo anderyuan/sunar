@@ -1,0 +1,32 @@
+﻿@model Abp.Application.Services.Dto.ListResultOutput<Esp.Auth.Munus.Dto.MenuListDto>
+<div>
+    <h1>菜单列表</h1>
+    <div class="row">
+        <div class="col-md-12">
+            <button data-toggle="modal" data-target="#UserCreateModal" class="btn btn-primary pull-right"><i class="fa fa-plus"></i> 新增</button>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>菜单名称</th>
+                        <th>显示名称</th>
+                        <th>URL</th>
+                        <th>菜单样式</th>
+                        <th>是否展开</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Items)
+                    {
+                        <tr>
+                            <td>@item.MenuName</td>
+                            <td>@item.DisplayName</td>
+                            <td>@item.MenuUrl</td>
+                            <td>@item.MenuCss</td>
+                            <td>@item.IsExpand</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
