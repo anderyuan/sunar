@@ -101,10 +101,10 @@
     <Compile Include="MultiTenancy\ITenantAppService.cs" />
     <Compile Include="MultiTenancy\Dto\TenantListDto.cs" />
     <Compile Include="MultiTenancy\TenantAppService.cs" />
-    <Compile Include="Munus\Dto\CreateMenuInput.cs" />
-    <Compile Include="Munus\Dto\MenuListDto.cs" />
-    <Compile Include="Munus\IMenuAppService.cs" />
-    <Compile Include="Munus\MenuAppService.cs" />
+    <Compile Include="Menus\Dto\CreateMenuInput.cs" />
+    <Compile Include="Menus\Dto\MenuListDto.cs" />
+    <Compile Include="Menus\IMenuAppService.cs" />
+    <Compile Include="Menus\MenuAppService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Roles\IRoleAppService.cs" />
     <Compile Include="Roles\Dto\UpdateRolePermissionsInput.cs" />
